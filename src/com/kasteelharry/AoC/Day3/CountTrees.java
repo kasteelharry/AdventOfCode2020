@@ -9,7 +9,7 @@ public class CountTrees {
     private static final String PATHFILE = "src/com/kasteelharry/AoC/files/inputDayThree.txt";
     private static int shift = 3;
     private static int down = 1;
-    private static final int LINESIZE = 30;
+    private static final int LINESIZE = 31;
     private static final char TREE = '#';
 
     private static final int[] SLOPES = new int[] {1, 3, 5, 7, 1};
@@ -33,10 +33,8 @@ public class CountTrees {
      */
     private static int calcPos(int oldPos) {
         int newPos = oldPos + shift;
-        if (newPos > LINESIZE) {
-            newPos = newPos - LINESIZE - 1;
-        }
-        return newPos;
+
+        return newPos % LINESIZE;
     }
 
     /**
