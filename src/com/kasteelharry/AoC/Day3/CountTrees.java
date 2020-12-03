@@ -74,21 +74,15 @@ public class CountTrees {
         InputConverter iC = new InputConverter(PATHFILE);
         final List<String> inputList = iC.convertStringFile();
 
-        int[] results = new int[SLOPES.length];
-
-        // for every slope calculate the trees.
+        long finalCount = 1;
+        // for every slope calculate the trees and multiply them.
         for (int i = 0; i < SLOPES.length; i++) {
             shift = SLOPES[i];
             down = DOWN_SLOPES[i];
-            results[i] = countAllTrees(inputList);
+            int temp = countAllTrees(inputList);
+            finalCount = finalCount * temp;
             System.out.println("Results of right " + shift + " down " +
-                    down + " is: " + results[i]);
-        }
-
-        // Calculate the product of all the trees in all the slopes.
-        long finalCount = 1;
-        for (int trees : results) {
-            finalCount = finalCount * trees;
+                    down + " is: " + temp);
         }
 
         System.out.println("The final count is: " + finalCount + " trees");
