@@ -1,15 +1,15 @@
-package com.kasteelharry.AoC.DayOne;
+package com.kasteelharry.AoC.Day1;
 
 
 import com.kasteelharry.AoC.util.InputConverter;
 
 import java.util.List;
 
-public class main {
-    private static final String pathFile = "src/com/kasteelharry/AoC/files/inputDayOne.txt";
+public class Main {
+    private static final String PATH_FILE = "src/com/kasteelharry/AoC/files/inputDayOne.txt";
 
     public static void main(String[] args) {
-        InputConverter iC = new InputConverter(pathFile);
+        InputConverter iC = new InputConverter(PATH_FILE);
 
         List<Integer> input = iC.convertIntegerFile();
 

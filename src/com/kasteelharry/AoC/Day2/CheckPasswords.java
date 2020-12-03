@@ -1,4 +1,4 @@
-package com.kasteelharry.AoC.DayTwo;
+package com.kasteelharry.AoC.Day2;
 
 import com.kasteelharry.AoC.util.InputConverter;
 
@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class checkPasswords {
-    private static final String pathFile = "src/com/kasteelharry/AoC/files/inputDayTwo.txt";
+public class CheckPasswords {
+    private static final String PATH_FILE = "src/com/kasteelharry/AoC/files/inputDayTwo.txt";
 
     /**
      * Converts the input string into an array.
@@ -30,7 +30,7 @@ public class checkPasswords {
     }
 
     /**
-     * Checks if the letter is in the password as required by the assignment
+     * Checks if the letter is in the password as required by the assignment.
      * @param inputString array generated from convertInput()
      * @return true if the password is valid.
      */
@@ -55,7 +55,7 @@ public class checkPasswords {
     }
 
     /**
-     * Checks if the password is valid according to the tougher demands
+     * Checks if the password is valid according to the tougher demands.
      * @param inputString array generated from convertInput()
      * @return true if the password is valid.
      */
@@ -86,7 +86,7 @@ public class checkPasswords {
 
     public static void main(String[] args) {
 
-        InputConverter iC = new InputConverter(pathFile);
+        InputConverter iC = new InputConverter(PATH_FILE);
         List<String> inputList = iC.convertStringFile();
         int count = 0;
         for (String input : inputList) {
