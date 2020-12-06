@@ -16,10 +16,9 @@ and other rules enforced at my university.
 | 1   | [Solution](src/com/kasteelharry/AoC/Day1/)  |
 | 2   | [Solution](src/com/kasteelharry/AoC/Day2/)  |
 | 3   | [Solution](src/com/kasteelharry/AoC/Day3/)  |
-| 3   | [Solution](src/com/kasteelharry/AoC/Day4/)  |
-| 4   | [Solution](src/com/kasteelharry/AoC/Day5/)  |
-| 5   | TBD                                         |
-| 6   | TBD                                         |
+| 4   | [Solution](src/com/kasteelharry/AoC/Day4/)  |
+| 5   | [Solution](src/com/kasteelharry/AoC/Day5/)  |
+| 6   | [Solution](src/com/kasteelharry/AoC/Day6/)  |
 | 7   | TBD                                         |
 | 8   | TBD                                         |
 | 9   | TBD                                         |
