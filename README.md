@@ -19,9 +19,9 @@ and other rules enforced at my university.
 | 4   | [Solution](src/com/kasteelharry/AoC/Day4/)  |
 | 5   | [Solution](src/com/kasteelharry/AoC/Day5/)  |
 | 6   | [Solution](src/com/kasteelharry/AoC/Day6/)  |
-| 7   | TBD                                         |
-| 8   | TBD                                         |
-| 9   | TBD                                         |
+| 7   | [Solution](src/com/kasteelharry/AoC/Day7/)  |
+| 8   | [Solution](src/com/kasteelharry/AoC/Day8/)  |
+| 9   | [Solution](src/com/kasteelharry/AoC/Day9/)  |
 | 10  | TBD                                         |
 | 11  | TBD                                         |
 | 12  | TBD                                         |
