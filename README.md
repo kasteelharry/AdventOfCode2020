@@ -22,7 +22,7 @@ and other rules enforced at my university.
 | 7   | [Solution](src/com/kasteelharry/AoC/Day7/)  |
 | 8   | [Solution](src/com/kasteelharry/AoC/Day8/)  |
 | 9   | [Solution](src/com/kasteelharry/AoC/Day9/)  |
-| 10  | TBD                                         |
+| 10  | [Solution](src/com/kasteelharry/AoC/Day9/)  |
 | 11  | TBD                                         |
 | 12  | TBD                                         |
 | 12  | TBD                                         |
